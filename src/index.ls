@@ -1,4 +1,4 @@
-## Module Dominatrix
+## Module dominatrix
 #
 # Push brand new DOM structures into pleasant submission!
 #

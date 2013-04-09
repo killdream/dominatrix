@@ -1,5 +1,5 @@
 {
-  "name": "Dominatrix",
+  "name": "dominatrix",
   "version": "0.2.0",
   "description": "Push brand new DOM structures into pleasant submission!",
   "main": "./lib/index.js",
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/killdream/Dominatrix.git"
+    "url": "git://github.com/killdream/dominatrix.git"
   },
   "author": "Quildreen \"Sorella\" Motta <quildreen@gmail.com>",
   "license": "MIT",

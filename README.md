@@ -1,4 +1,4 @@
-# dominatrix [![Build Status](https://travis-ci.org/killdream/Dominatrix.png)](https://travis-ci.org/killdream/Dominatrix)  ![Dependencies Status](https://david-dm.org/killdream/Dominatrix.png)
+# Dominatrix [![Build Status](https://travis-ci.org/killdream/dominatrix.png)](https://travis-ci.org/killdream/dominatrix)  ![Dependencies Status](https://david-dm.org/killdream/dominatrix.png)
 
 Push brand new DOM structures into pleasant submission!
 
@@ -8,7 +8,7 @@ Push brand new DOM structures into pleasant submission!
 This library assumes an ES5 environment, but can be easily supported in ES3
 platforms by the use of shims. Just include [es5-shim][] :3
 
-[![browser support](http://ci.testling.com/killdream/Dominatrix.png)](http://ci.testling.com/killdream/Dominatrix)
+[![browser support](http://ci.testling.com/killdream/dominatrix.png)](http://ci.testling.com/killdream/dominatrix)
 
 
 ## Example
