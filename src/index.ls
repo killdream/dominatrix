@@ -60,8 +60,9 @@ is-array = Array.is-array
 # Checks if something is an object.
 #
 # :: a -> Bool
-is-object = (a) -> (not is-node a) and ((Object a) is a)
-
+is-object = (a) -> (not is-array a) \
+               and (not is-node a)  \
+               and ((Object a) is a)
 
 #### λ is-node
 # Checks if something is an DOM Node.
