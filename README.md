@@ -66,9 +66,12 @@ A quick reference of the API can be built using [Calliope][]:
 
 ## Tests
 
-You can run all tests using Mocha:
+You can run all tests using Mocha (you'll also need PhantomJS):
 
     $ npm test
+    
+You can run tests on a browser by just running `npm run pretest` and loading
+`test/browser/tests.html` in a browser.
 
 
 ## Licence
