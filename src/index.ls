@@ -52,7 +52,7 @@
 
 ### -- Aliases ---------------------------------------------------------
 keys = Object.keys
-
+is-array = Array.is-array
 
 ### -- Helpers ---------------------------------------------------------
 
@@ -60,7 +60,7 @@ keys = Object.keys
 # Checks if something is an object.
 #
 # :: a -> Bool
-is-object = (a) -> (Object a) is a
+is-object = (a) -> (not is-node a) and ((Object a) is a)
 
 
 #### λ is-node
@@ -114,7 +114,7 @@ set-properties = (element, properties) ->
 append-children = (element, children) ->
   for child in children
     switch
-    | array-p child  => append-children element, child
+    | is-array child => append-children element, child
     | child !~= null => element.append-child (make-node child)
 
   return element
@@ -125,7 +125,7 @@ append-children = (element, children) ->
 #
 # :: Node-like -> Node
 make-node = (a) ->
-  | node-p a  => a
+  | is-node a => a
   | otherwise => document.create-text-node a
 
 
