@@ -1,12 +1,13 @@
 {
   "name": "dominatrix",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Push brand new DOM structures into pleasant submission!",
   "main": "./lib/index.js",
   "devDependencies": {
     "LiveScript": "~1.1.1",
     "mocha": "~1.8.1",
     "es5-shim": "~2.0.5",
+    "mocha-phantomjs": "~2.0.1",
     "browserify": "~2.4.3"
   },
   "scripts": {
@@ -25,17 +26,40 @@
   "calliope": {
     "output": "docs/api",
     "copyright": "© 2013 Quildreen \"Sorella\" Motta",
-    "packages": [{ "files": [ "src/*.ls" ] }]
+    "packages": [
+      {
+        "files": [
+          "src/*.ls"
+        ]
+      }
+    ]
   },
   "testling": {
     "files": "test/browser/suite.js",
     "preprocess": "npm run pretest",
     "browsers": {
-      "ie": [8, 9, 10],
-      "firefox": [15, "nightly"],
-      "chrome": [21, 22, "canary"],
-      "opera": [10, 12, "next"],
-      "safari": [5.1]
+      "ie": [
+        8,
+        9,
+        10
+      ],
+      "firefox": [
+        15,
+        "nightly"
+      ],
+      "chrome": [
+        21,
+        22,
+        "canary"
+      ],
+      "opera": [
+        10,
+        12,
+        "next"
+      ],
+      "safari": [
+        5.1
+      ]
     },
     "harness": "mocha"
   }
