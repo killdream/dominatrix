@@ -1,6 +1,6 @@
 {
   "name": "dominatrix",
-  "version": "0.2.1",
+  "version": "1.0.0",
   "description": "Push brand new DOM structures into pleasant submission!",
   "main": "./lib/index.js",
   "devDependencies": {
@@ -36,31 +36,21 @@
   },
   "testling": {
     "files": "test/browser/suite.js",
-    "preprocess": "npm run pretest",
-    "browsers": {
-      "ie": [
-        8,
-        9,
-        10
-      ],
-      "firefox": [
-        15,
-        "nightly"
-      ],
-      "chrome": [
-        21,
-        22,
-        "canary"
-      ],
-      "opera": [
-        10,
-        12,
-        "next"
-      ],
-      "safari": [
-        5.1
-      ]
-    },
-    "harness": "mocha"
-  }
+    "harness": "mocha",
+    "browsers": [
+      "ie/6..latest",
+      "chrome/20..latest",
+      "firefox/15..latest",
+      "safari/latest",
+      "opera/11.0..latest",
+      "iphone/6",
+      "ipad/6"
+    ]
+  },
+  "keywords": [
+    "dom",
+    "html",
+    "templating",
+    "dom builder"
+  ]
 }

@@ -1,14 +1,11 @@
-# Dominatrix [![Build Status](https://travis-ci.org/killdream/Dominatrix.png)](https://travis-ci.org/killdream/Dominatrix)  ![Dependencies Status](https://david-dm.org/killdream/Dominatrix.png)
+Dominatrix
+==========
+
+[![Build Status](https://travis-ci.org/killdream/dominatrix.png)](https://travis-ci.org/killdream/dominatrix)  ![Dependencies Status](https://david-dm.org/killdream/dominatrix.png)
+[![browser support](http://ci.testling.com/killdream/dominatrix.png)](http://ci.testling.com/killdream/dominatrix)
+
 
 Push brand new DOM structures into pleasant submission!
-
-
-## Platform support
-
-This library assumes an ES5 environment, but can be easily supported in ES3
-platforms by the use of shims. Just include [es5-shim][] :3
-
-[![browser support](http://ci.testling.com/killdream/Dominatrix.png)](http://ci.testling.com/killdream/Dominatrix)
 
 
 ## Example
@@ -53,7 +50,7 @@ This generates the following HTML structure:
 
 Just grab it from NPM:
 
-    $ npm install Dominatrix
+    $ npm install dominatrix
 
 
 ## Documentation
@@ -72,6 +69,12 @@ You can run all tests using Mocha (you'll also need PhantomJS):
     
 You can run tests on a browser by just running `npm run pretest` and loading
 `test/browser/tests.html` in a browser.
+
+
+## Platform support
+
+This library assumes an ES5 environment, but can be easily supported in ES3
+platforms by the use of shims. Just include [es5-shim][] :3
 
 
 ## Licence
