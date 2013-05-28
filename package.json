@@ -12,7 +12,8 @@
   },
   "scripts": {
     "cc": "./node_modules/.bin/lsc -o lib -c src/*.ls",
-    "pretest": "npm run cc && ./node_modules/.bin/browserify -o test/browser/suite-bundle.js -e test/browser/suite.js",
+    "test-cc": "./node_modules/.bin/lsc -o build/lib -c src/*.ls",
+    "pretest": "npm run test-cc && ./node_modules/.bin/browserify -o test/browser/suite-bundle.js -e test/browser/suite.js",
     "test": "./node_modules/.bin/mocha-phantomjs test/browser/tests.html",
     "prepublish": "npm run cc"
   },

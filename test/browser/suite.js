@@ -1,7 +1,7 @@
 require('es5-shim')
 
 var assert = require('assert')
-var _      = require('../../lib')
+var _      = require('../../build/lib')
 
 
 describe('λ builder()', function() {
