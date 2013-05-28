@@ -1,7 +1,9 @@
 Dominatrix
 ==========
 
-[![Build Status](https://travis-ci.org/killdream/dominatrix.png)](https://travis-ci.org/killdream/dominatrix)  ![Dependencies Status](https://david-dm.org/killdream/dominatrix.png)
+[![Build Status](https://travis-ci.org/killdream/dominatrix.png)](https://travis-ci.org/killdream/dominatrix)
+![Dependencies Status](https://david-dm.org/killdream/dominatrix.png)
+
 [![browser support](http://ci.testling.com/killdream/dominatrix.png)](http://ci.testling.com/killdream/dominatrix)
 
 
