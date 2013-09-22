@@ -10,10 +10,11 @@ Dominatrix
 [![browser support](http://ci.testling.com/killdream/dominatrix.png)](http://ci.testling.com/killdream/dominatrix)
 
 
-Dominatrix is a smart HTML templating library for Browsers. In other words,
-Dominatrix *cares* about the structure of your HTML, and will allow you to
-safely compose even arbitrary pieces of HTML without you having to worry about
-escaping your data or XSS injections!
+Dominatrix is a smart HTML templating library for Browsers. 
+
+In other words, Dominatrix *cares* about the structure of your HTML, and will
+allow you to safely compose even arbitrary pieces of HTML without you having to
+worry about escaping your data or XSS injections!
 
 
 ## Philosophy
@@ -107,6 +108,8 @@ locally. To build the documentation you'll need to install [type.writer][], and 
 This will generate the documentation as a series of HTML files on
 `docs/build`.
 
+[type.writer]: http://kurisuwhyte.github.io/type.writer
+[docs]: http://killdream.github.io/dominatrix
 
 ## Tests
 
@@ -116,6 +119,8 @@ You can run all tests using Mocha (you'll also need [PhantomJS][]):
     
 You can run tests on a browser by just running `npm run pretest` and loading
 `test/browser/tests.html` in a browser.
+
+[PhantomJS]: http://phantomjs.org/
 
 
 ## Platform support
