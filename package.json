@@ -1,6 +1,6 @@
 {
   "name": "dominatrix",
-  "version": "1.0.0",
+  "version": "1.0.1-alpha",
   "description": "Push brand new DOM structures into pleasant submission!",
   "main": "./lib/index.js",
   "devDependencies": {
@@ -24,17 +24,6 @@
   "author": "Quildreen \"Sorella\" Motta <quildreen@gmail.com>",
   "license": "MIT",
   "readmeFilename": "README.md",
-  "calliope": {
-    "output": "docs/api",
-    "copyright": "© 2013 Quildreen \"Sorella\" Motta",
-    "packages": [
-      {
-        "files": [
-          "src/*.ls"
-        ]
-      }
-    ]
-  },
   "testling": {
     "files": "test/browser/suite.js",
     "harness": "mocha",
