@@ -42,5 +42,8 @@
     "html",
     "templating",
     "dom builder"
-  ]
+  ],
+  "dependencies": {
+    "LiveScript": "~1.2.0"
+  }
 }
