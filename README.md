@@ -44,8 +44,8 @@ var _ = require('dominatrix')
 function link(a) { return _('a.link', { href: a.url }, a.text) }
 
 var items = [
-  { url: '/example/a', 'Something' }
-, { url: '/example/b', 'More stuff' }
+  { url: '/example/a', text: 'Something' }
+, { url: '/example/b', text: 'More stuff' }
 ]
 
 _('html'
