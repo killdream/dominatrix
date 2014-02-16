@@ -1,13 +1,13 @@
 Dominatrix
 ==========
 
-[![Build Status](https://travis-ci.org/killdream/dominatrix.png)](https://travis-ci.org/killdream/dominatrix)
-[![Dependencies Status](https://david-dm.org/killdream/dominatrix.png)](https://david-dm.org/killdream/dominatrix.png)
+[![Build Status](https://travis-ci.org/robotlolita/dominatrix.png)](https://travis-ci.org/robotlolita/dominatrix)
+[![Dependencies Status](https://david-dm.org/robotlolita/dominatrix.png)](https://david-dm.org/robotlolita/dominatrix.png)
 [![NPM version](https://badge.fury.io/js/dominatrix.png)](http://badge.fury.io/js/dominatrix)
 [![stable](http://hughsk.github.io/stability-badges/dist/stable.svg)](http://github.com/hughsk/stability-badges)
 
 
-[![browser support](http://ci.testling.com/killdream/dominatrix.png)](http://ci.testling.com/killdream/dominatrix)
+[![browser support](http://ci.testling.com/robotlolita/dominatrix.png)](http://ci.testling.com/robotlolita/dominatrix)
 
 
 Dominatrix is a smart HTML templating library for Browsers. 
@@ -83,7 +83,7 @@ The easiest way is to grab it from NPM (if you're in the Browser, use [Browserif
 If you don't want to use NPM and/or Browserify, you'll need to compile the
 library yourself. You'll need [Git][], [Make][] and [Node.js][]:
 
-    $ git clone git://github.com/killdream/dominatrix.git
+    $ git clone git://github.com/robotlolita/dominatrix.git
     $ cd dominatrix
     $ npm install
     $ make bundle
@@ -109,7 +109,7 @@ This will generate the documentation as a series of HTML files on
 `docs/build`.
 
 [type.writer]: http://kurisuwhyte.github.io/type.writer
-[docs]: http://killdream.github.io/dominatrix
+[docs]: http://robotlolita.github.io/dominatrix
 
 ## Tests
 
@@ -135,6 +135,6 @@ platforms by the use of shims. Just include [es5-shim][] :3
 
 Copyright (c) 2013 Quildreen Motta.
 
-Released under the [MIT licence](https://github.com/killdream/dominatrix/blob/master/LICENCE).
+Released under the [MIT licence](https://github.com/robotlolita/dominatrix/blob/master/LICENCE).
 
 
