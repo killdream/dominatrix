@@ -31,8 +31,8 @@
     "harness": "mocha",
     "browsers": [
       "ie/6..latest",
-      "chrome/20..latest",
-      "firefox/15..latest",
+      "chrome/25..latest",
+      "firefox/20..latest",
       "safari/latest",
       "opera/11.0..latest",
       "iphone/6",
